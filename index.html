@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wolfpack Email Templates</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', sans-serif; background: #0f1117; color: #e4e4e7; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+  .wrap { max-width: 720px; width: 100%; padding: 3rem 2rem; }
+  h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: .5rem; color: #fff; }
+  p.sub { color: #71717a; margin-bottom: 2.5rem; font-size: .95rem; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  a.card { display: block; padding: 1.25rem 1.5rem; border-radius: 12px; text-decoration: none; transition: all .15s ease; border: 1px solid #27272a; background: #18181b; }
+  a.card:hover { border-color: #3f3f46; background: #1f1f23; transform: translateY(-2px); }
+  .card .label { font-weight: 600; font-size: 1.05rem; color: #fff; margin-bottom: .25rem; }
+  .card .desc { font-size: .8rem; color: #71717a; }
+  .badge { display: inline-block; font-size: .65rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; margin-left: .5rem; vertical-align: middle; }
+  .wp { background: #7c3aed22; color: #a78bfa; }
+  .re { background: #b4540022; color: #fb923c; }
+  .lnb { background: #e11d4822; color: #fb7185; }
+  .dw { background: #1e3a5f44; color: #60a5fa; }
+  .ckn { background: #166534aa; color: #4ade80; }
+  .ww { background: #854d0e44; color: #fbbf24; }
+  @media (max-width: 500px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📧 Wolfpack Email Templates</h1>
+  <p class="sub">New Release templates — all imprints. Click to preview.</p>
+  <div class="grid">
+    <a class="card" href="wolfpack_nr.html">
+      <div class="label">Wolfpack Publishing <span class="badge wp">WP</span></div>
+      <div class="desc">Thrillers &amp; Westerns</div>
+    </a>
+    <a class="card" href="rep_nr.html">
+      <div class="label">Rough Edges Press <span class="badge re">REP</span></div>
+      <div class="desc">Classic Westerns</div>
+    </a>
+    <a class="card" href="lnbp_nr.html">
+      <div class="label">Love N. Books Press <span class="badge lnb">LNB</span></div>
+      <div class="desc">Romance</div>
+    </a>
+    <a class="card" href="dwb_nr.html">
+      <div class="label">Dark Wolf Books <span class="badge dw">DWB</span></div>
+      <div class="desc">Horror &amp; Dark Fiction</div>
+    </a>
+    <a class="card" href="ckn_nr.html">
+      <div class="label">CKN Christian <span class="badge ckn">CKN</span></div>
+      <div class="desc">Christian Fiction</div>
+    </a>
+    <a class="card" href="wwb_nr.html">
+      <div class="label">Wise Wolf Books <span class="badge ww">WWB</span></div>
+      <div class="desc">YA &amp; General Fiction</div>
+    </a>
+  </div>
+</div>
+</body>
+</html>
